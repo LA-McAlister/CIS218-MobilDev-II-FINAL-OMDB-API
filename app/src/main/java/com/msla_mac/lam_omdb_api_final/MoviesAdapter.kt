@@ -12,7 +12,6 @@ internal class MoviesAdapter(
     private val listener: (position: Int) -> Unit
     ): RecyclerView.Adapter<MoviesAdapter.MyViewHolder>() {
 
-    // TODO: finish adapter
     inner class MyViewHolder(view: View) : RecyclerView.ViewHolder(view),
         View.OnClickListener {
         var title : TextView = view.findViewById(R.id.movieTitleText)
