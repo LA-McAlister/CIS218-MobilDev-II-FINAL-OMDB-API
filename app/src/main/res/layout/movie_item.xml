@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/cardview_dark_background"
+        />
+
+    <TextView
+        android:id="@+id/movieTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Title"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/movieYearText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Year"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/imbdIDText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="imbdID"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/showTypeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Type"
+        android:textSize="18sp" />
+
+</LinearLayout>

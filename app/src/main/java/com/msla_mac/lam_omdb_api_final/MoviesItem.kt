@@ -1,16 +1,12 @@
 package com.msla_mac.lam_omdb_api_final
 
-class MoviesItem () {
-}
-
-
-class RecordsItem (var recordID: Int, var name: String, var description: String, var price: Double, var rating: Int, var image: String, var dateModified: String, var dateCreated : String  ) {
+class MoviesItem (var Title: String, var Year: Int, var imdbID: String, var Type: String) {
 
     fun toCSV(): String {
-        return "$recordID, $name, $description, $price, $rating, $image, $dateModified, $dateCreated"
+        return "$Title, $Year, $imdbID, $Type"
     }
 
     override fun toString(): String {
-        return "$name : $description $price -- $rating $image"
+        return "$Title : $Year $imdbID $Type"
     }
 }
