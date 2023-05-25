@@ -26,7 +26,7 @@ class MainActivity : BaseActivity() {
             toastIt("You selected position: $position")
 
             //perform whatever you want onclick
-            val intent = Intent(this, ShowRecord::class.java)
+            val intent = Intent(this, ShowMovie::class.java)
             currentRecord = position
             startActivity(intent)
 
